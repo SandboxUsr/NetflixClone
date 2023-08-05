@@ -13,7 +13,7 @@ export default function HomePage() {
         headers: {
           "Content-Type": "application/json",
           Authorization:
-            "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0NGYwYzhjZmIzMzA5MTIyNjA3ZTNiODQzZGY0ZjhkNCIsInN1YiI6IjY0Y2NmMmIyMmYyNjZiMDllZDYwM2M5OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.n2rIZZrhfHqE9y1qvmaevJ9DsGRMSNRztwtnRazSZhU",
+            process.env.REACT_APP_KEY,
         },
       }
     )
