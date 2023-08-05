@@ -1,12 +1,9 @@
-import './App.css';
-import LoginPage from './Components/LoginPage';
-//import Second from './Components/Second';
+import HomePage from './Components/HomePage';
+
 function App() {
-  return (
-    <div className="App">
-      <LoginPage/>
-    </div>
-  );
+  return <>
+    <HomePage />
+  </>
 }
 
 export default App;

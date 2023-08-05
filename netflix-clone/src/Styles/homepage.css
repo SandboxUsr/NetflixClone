@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+}
+
+.popOnNetf {
+    display: flex;
+    gap: 15px;
+}
+
+
+h3 {
+    color: white;
+}
