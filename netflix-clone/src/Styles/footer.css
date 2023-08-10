@@ -1,0 +1,21 @@
+.final-footer-container {
+    background-color: black;
+    height: 500px;
+    padding: 70px 10vw;  
+}
+
+.contact-no {
+    color: white;
+}
+
+.custom-dark {
+    background-color: aqua;
+}
+
+.table {
+    margin-top: 40px;
+}
+
+.footer-language {
+    margin-top: 40px;
+}

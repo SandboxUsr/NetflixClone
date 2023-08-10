@@ -1,8 +1,9 @@
-import HomePage from './Components/HomePage';
-import Login from './Components/LoginPage'
+import LandingPage from "./Components/LandingPage";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 function App() {
   return <>
-    <Login />
+    <LandingPage />
   </>
 }
 

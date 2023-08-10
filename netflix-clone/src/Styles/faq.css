@@ -1,0 +1,44 @@
+.faq-container {
+    background-color: black;
+}
+
+.faq-container h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.faq-accordian {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.item .faq-ques {
+    background-color: gray;
+}
+
+.item {
+    margin: 10px 0px;
+    background-color: gray;
+}
+
+.faq-footer {
+    padding-bottom: 80px;
+}
+
+.faq-footer h4 {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.faq-footer .info {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.faq-footer .info input {
+    margin-top: 10px;
+}
