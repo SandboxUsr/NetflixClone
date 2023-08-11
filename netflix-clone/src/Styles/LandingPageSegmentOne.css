@@ -1,14 +1,14 @@
-.container {
+.landing-pg-one-container {
     background-image: url("../Assets/Landing_Page/one.jpg");
     background-position: center;
-    min-width: 100vw;
+    max-width: 100vw;
     min-height: 85vh;
     border: 1px solid;
     box-sizing: border-box;
     opacity: 0.8;
 }
 
-.container::before {
+.landing-pg-one-container::before {
     content: "";
     position: absolute;
     top: 0;
@@ -18,11 +18,11 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.top .logo img {
+.landing-pg-one-top .landing-pg-one-logo .landing-pg-one-ntflx-logo {
     height: 40px;
 }
 
-.top {
+.landing-pg-one-top {
     display: flex;
     justify-content: space-between;
     width: 70%;
@@ -32,7 +32,7 @@
     margin-top: 15px;
 }
 
-select {
+.landing-pg-one-language-selector {
     height: 35px;
     width: 130px;
     background-color: black;
@@ -40,7 +40,7 @@ select {
     margin: 10px;
 }
 
-.contents {
+.landing-pg-one-contents {
     display: flex;
     flex-wrap: wrap;
     position: absolute;
@@ -51,20 +51,19 @@ select {
     transform: translate(-50%, -80%);
 }
 
-.contents h1 {
+.landing-pg-one-contents .landing-pg-one-contents-title {
     color: white;
     font-weight: 900;
     line-height: 60px;
 }
 
-
-.contents-text {
+.landing-pg-one-contents-text {
     color: white;
     font-weight: 500;
     line-height: 30px;
 }
 
-.info input {
+.landing-pg-one-contents-details .landing-pg-one-contents-details-email {
     height: 50px;
     width: 350px;
     background-color: rgb(40, 38, 38);
@@ -72,11 +71,7 @@ select {
     color: white;
 }
 
-.info select {
-    margin-right: 10px;
-}
-
-.info #inside {
+.landing-pg-one-contents-details .landing-pg-one-contents-details-button {
     height: 50px;
     width: 200px;
     margin: 10px;
