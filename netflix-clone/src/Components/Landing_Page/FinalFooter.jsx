@@ -4,7 +4,7 @@ import "../../Styles/footer.css";
 export default function FinalFooter() {
   return (
     <div className="final-footer-container">
-      <p className="contact-no">
+      <p className="final-footer-contact-no">
         Questions? Call{" "}
         <a className="text-white" href="https://help.netflix.com/en/contactus">
           000-800-919-1694
@@ -126,11 +126,11 @@ export default function FinalFooter() {
           </tr>
         </tbody>
       </table>
-      <div className="footer-language">
-          <select name="language" id="language">
-                    <option value="English">English</option>
-                    <option value="Hindi">Hindi</option>
-                </select>
+      <div>
+          <select className="final-footer-language" name="language" id="language">
+              <option value="English">English</option>
+              <option value="Hindi">Hindi</option>
+          </select>
       </div>
       <div style={{color: "white", marginTop: "20px"}}>Netflix India</div>
     </div>

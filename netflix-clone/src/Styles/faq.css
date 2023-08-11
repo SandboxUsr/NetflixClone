@@ -2,7 +2,7 @@
     background-color: black;
 }
 
-.faq-container h1{
+.faq-container .faq-title{
     color: white;
     display: flex;
     justify-content: center;
@@ -10,35 +10,47 @@
 }
 
 .faq-accordian {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 
-.item .faq-ques {
+.faq-item .faq-ques {
     background-color: gray;
 }
 
-.item {
+.faq-item {
     margin: 10px 0px;
     background-color: gray;
 }
 
 .faq-footer {
-    padding-bottom: 80px;
+    padding-bottom: 90px;
 }
 
-.faq-footer h4 {
+.faq-footer-title {
     display: flex;
     justify-content: center;
     color: white;
+    font-weight: 500;
+    line-height: 60px;
 }
 
-.faq-footer .info {
-    margin-top: 20px;
+.faq-footer-details {
     display: flex;
     justify-content: center;
 }
 
-.faq-footer .info input {
+.faq-footer-details .faq-footer-details-email {
+    height: 50px;
+    width: 350px;
     margin-top: 10px;
+    background-color: rgb(40, 38, 38);
+    border: 1px solid white;
+    color: white;
+}
+
+.faq-footer-details .faq-footer-details-button {
+    height: 50px;
+    width: 200px;
+    margin: 10px;
 }

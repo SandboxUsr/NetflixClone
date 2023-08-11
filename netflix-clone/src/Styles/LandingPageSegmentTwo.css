@@ -1,4 +1,4 @@
-.sec-contents {
+.landing-pg-two-contents {
     color: white;
     background-color: black;
     display: flex;
@@ -7,11 +7,11 @@
     height: 550px;
 }
 
-.textdata {
+.landing-pg-two-textdata {
     margin-top: 200px;
 }
 
-.sec-image img {
+.landing-pg-two-contents-image .landing-pg-two-contents-image-instance {
     height: 300px;
     width: 500px;
     margin-top: 150px;

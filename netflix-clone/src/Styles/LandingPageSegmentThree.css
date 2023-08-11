@@ -1,4 +1,4 @@
-.third-contents {
+.landing-pg-three-contents {
     color: white;
     background-color: black;
     display: flex;
@@ -7,12 +7,12 @@
     height: 550px;
 }
 
-.third-textdata {
+.landing-pg-three-textdata {
     margin-top: 180px;
     margin-left: 10%;
 }
 
-.third-imaged img {
+.landing-pg-three-image .landing-pg-three-image-instance {
     height: 300px;
     width: 500px;
     margin-top: 100px;
