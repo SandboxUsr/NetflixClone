@@ -1,0 +1,44 @@
+.navbar-container {
+    background-color: rgb(134, 130, 130);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.navbar-left-elements {
+    color: rgb(76, 74, 74);
+    padding-top: 20px;
+    padding-left: 5vw;
+    display: flex;
+    gap: 2vw;
+}
+
+.navbar-netflix-logo {
+    height: 40px;
+    width: 120px;
+    margin-right: 3%;
+    margin-top: -5px;
+}
+
+.navbar-left-elements-instance {
+    font-weight: 500;
+}
+
+.navbar-left-elements-instance:hover {
+    cursor: pointer;
+}
+
+.navbar-right-elements {
+    padding-right: 5vw;
+}
+
+.navbar-right-elements-image {
+    height: 30px;
+    width: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.navbar-right-elements-image:hover {
+    cursor: pointer;
+}

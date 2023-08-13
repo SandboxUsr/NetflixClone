@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import LandingPage from "./Components/LandingPage";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return <>
-    <LandingPage />
+    <Navbar />
   </>
 }
 
