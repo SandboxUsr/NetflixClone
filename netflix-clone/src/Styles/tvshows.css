@@ -1,0 +1,20 @@
+.tvshows-container {
+    height: 100vh;
+    background-color: rgb(57, 55, 55);
+    padding-left: 2vw;
+}
+
+.tvshows-subheading {
+    color: white;
+}
+
+.tvshows-casual-list {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.tvshows-casual-list-posters:hover {
+    transform: scale(1.2);
+    opacity: 1;
+}

@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./Components/Navbar";
+import TvShows from "./Components/TvShows";
 
 function App() {
   return <>
-    <Navbar />
+    <TvShows />
   </>
 }
 
