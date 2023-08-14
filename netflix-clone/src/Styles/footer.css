@@ -1,14 +1,14 @@
 .final-footer-container {
     background-color: black;
     height: 500px;
-    padding: 70px 10vw;  
+    padding: 70px 15vw;  
 }
 
 .final-footer-contact-no {
     color: white;
 }
 
-.table {
+.final-footer-table {
     margin-top: 40px;
 }
 
@@ -17,5 +17,5 @@
     width: 130px;
     background-color: black;
     color: white;
-    margin: 10px;
+    margin-top: 10px;
 }

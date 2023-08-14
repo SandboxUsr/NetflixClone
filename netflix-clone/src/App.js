@@ -1,9 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import LandingPage from "./Components/LandingPage"
+import TvShows from "./Components/TvShows";
 
 function App() {
   return <>
-    <LandingPage />
+    <TvShows />
   </>
 }
 

@@ -10,7 +10,7 @@ export default function FinalFooter() {
           000-800-919-1694
         </a>
       </p>
-      <table className="table table-borderless table-dark custom-dark">
+      <table className="table table-borderless table-dark final-footer-table">
         <tbody>
           <tr>
             <td>
