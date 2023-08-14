@@ -1,20 +1,57 @@
 .tvshows-container {
-    height: 100vh;
+    height: 100%;
     background-color: rgb(57, 55, 55);
-    padding-left: 2vw;
+    padding-left: 30px;
 }
 
 .tvshows-subheading {
     color: white;
 }
 
+.tvshows-casual-list-container {
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 100%;
+  padding: 2vw;
+  position: relative;
+}
+
 .tvshows-casual-list {
     display: flex;
-    overflow-x: scroll;
+    align-items: center;
+    overflow: hidden;
     width: 100%;
+    padding: 2vw;
+    position: relative;
 }
 
 .tvshows-casual-list-posters:hover {
     transform: scale(1.2);
     opacity: 1;
+}
+
+.tvshows-casual-list button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgb(129, 122, 122);
+  height: 160px;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  z-index: 1;
+  opacity: 0.5;
+}
+
+.tvshows-casual-list button:hover {
+  opacity: 1;
+}
+
+.tvshows-casual-list .tvshows-left-button {
+  left: 0;
+}
+
+.tvshows-casual-list .tvshows-right-button {
+  right: 0;
 }
