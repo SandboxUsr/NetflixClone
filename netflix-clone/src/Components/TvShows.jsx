@@ -34,7 +34,7 @@ export default function TvShows() {
       {
         method: "GET",
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type": "application/json", 
           Authorization: process.env.REACT_APP_KEY,
         },
       }),
