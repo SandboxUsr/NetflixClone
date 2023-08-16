@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../Styles/homepage.css";
 import Card from "./Card";
+import Navbar from "./Navbar";
 
 export default function HomePage() {
   const [movies, setMovies] = useState([]);
@@ -27,6 +28,7 @@ export default function HomePage() {
 
   return (
     <div>
+      <Navbar />
       <h3>Popular on Netflix</h3>
       <div className="popOnNetf">
         {movies.map((movie) => (
