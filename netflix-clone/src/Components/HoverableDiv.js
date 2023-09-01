@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../Styles/hoverableDiv.css'; // Import your CSS file for styling
+import '../Styles/hoverableDiv.css'; 
 import OnHoverCard from './OnHoverCard';
 
 

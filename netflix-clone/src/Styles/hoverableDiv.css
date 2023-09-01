@@ -1,0 +1,41 @@
+/* ContainerComponent.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .hoverable-card {
+    position: relative;
+    width: 200px;
+    height: 150px;
+    background-color: lightgray;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .hovered-card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hoverable-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .hoverable-card:hover .hovered-card {
+    opacity: 1;
+  }
+  

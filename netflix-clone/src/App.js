@@ -4,7 +4,7 @@ import TvShows from "./Components/TvShows";
 import Latest from "./Components/Latest";
 import LandingPage from "./Components/LandingPage"
 import MyList from "./Components/MyList"
-// import LoginPage from "./Components/LoginPage"
+import LoginPage from "./Components/LoginPage"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -21,6 +21,7 @@ function App() {
           <Route path="/movies" element={<TvShows />} />
           <Route path="/latest" element={<Latest />} />
           <Route path="/mylist" element={<MyList />} />
+          <Route path="/loginpage" element={<LoginPage/>} />
         </Routes>
       </BrowserRouter>
     </>
