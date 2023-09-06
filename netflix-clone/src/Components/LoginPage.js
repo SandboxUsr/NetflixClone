@@ -45,7 +45,7 @@
 import React from "react";
 import netflixlogo from "../Assets/netflixlogo.png";
 import BgImg from "./BackgroundImg";
-import './Login.css'
+import '../Styles/Login.css'
 function LoginPage() {
   return (
     <>
