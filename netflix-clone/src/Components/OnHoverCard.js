@@ -1,19 +1,34 @@
 import React from 'react'
-import demo from '../Assets/demo.jpg'
-//import { BsPlayCircleFill } from 'react-icons/ba';
-//import { MdOutlineDoneOutline } from 'react-icons/md';
-//import { IoMdThumbsUp } from 'react-icons/io';
-//import { FaCircleChevronDown } from 'react-icons/fa';
+//import demo from '../Assets/demo.jpg'
+import { BsPlayCircleFill } from 'react-icons/bs';
+import { AiOutlineCheckCircle } from 'react-icons/ai';
+import { FaRegThumbsUp } from 'react-icons/fa';
+import { BiChevronDownCircle } from 'react-icons/bi';
 
 
 function OnHoverCard() {
   return (
-    <div className='h-96 w-1/3 bg-black' >
-        <div className={`bg-[url(${demo})] bg-[center_top_1rem] h-[190px] w-[440px] `}>
+    <div className='h-[370px] w-[420px] bg-black my-[10px] ml-[30px] '>
+        <div className={`bg-white h-[190px] w-[410px] mx-[5px] my-[10px]`}>
           
         </div>
-        <div id="card-buttons"></div>
-        <div id="card-details"></div>
+        <div id="card-buttons" className='flex'>
+          <div className='flex space-x-1.5'>
+          <BsPlayCircleFill className='text-white text-[37px] mt-[20px] ml-[20px]' />
+          <AiOutlineCheckCircle className='text-white text-[45px] mt-[16px]'/>
+          <div className='border-solid border-2 border-white rounded-full w-[40px] h-[40px] mt-[18px]'><FaRegThumbsUp className='text-white text-[20px] m-[8px]'/></div></div>
+          <BiChevronDownCircle className='text-white text-[46px] mt-[15px] ml-[195px]'/>
+        </div>
+
+        <div id="card-details" className='ml-[20px] mt-[15px]' >
+          <span className='text-[lightgreen] font-bold'>98% Match </span>
+          <span className='border-solid border-2 border-white text-white px-[5px] ml-[5px]'> A</span>
+          <span className='text-white px-[5px] ml-[5px]'>2h 12m </span>
+          <span className='border-solid border-1 border-white rounded text-white text-xs px-[5px] ml-[5px]'>HD</span>
+          <div className='text-white font-bold mt-[15px]'>
+              Psychological . Dark . Thriller
+          </div>
+        </div>
     </div>
   )
 }
