@@ -26,7 +26,7 @@ function App() {
           <Route path="/onhovercard" element={<OnHoverCard/>} />
         </Routes>
       </BrowserRouter> */}
-      <OnHoverCard/>
+      <OnHoverCard />
     </>
   );
 }
