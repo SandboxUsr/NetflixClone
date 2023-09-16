@@ -1,17 +1,17 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-// import HomePage from "./Components/HomePage";
-// import TvShows from "./Components/TvShows";
-// import Latest from "./Components/Latest";
-// import LandingPage from "./Components/LandingPage"
-// import MyList from "./Components/MyList"
-// import LoginPage from "./Components/LoginPage"
-import OnHoverCard from "./Components/OnHoverCard"
-// import { BrowserRouter, Route, Routes } from "react-router-dom";
+import HomePage from "./Components/HomePage";
+import TvShows from "./Components/TvShows";
+import Latest from "./Components/Latest";
+import LandingPage from "./Components/LandingPage"
+import MyList from "./Components/MyList"
+import LoginPage from "./Components/LoginPage"
+// import OnHoverCard from "./Components/OnHoverCard"
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <>
-      {/* <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<LandingPage />} />
           
@@ -23,10 +23,10 @@ function App() {
           <Route path="/latest" element={<Latest />} />
           <Route path="/mylist" element={<MyList />} />
           <Route path="/loginpage" element={<LoginPage/>} />
-          <Route path="/onhovercard" element={<OnHoverCard/>} />
+          {/* <Route path="/onhovercard" element={<OnHoverCard/>} /> */}
         </Routes>
-      </BrowserRouter> */}
-      <OnHoverCard/>
+      </BrowserRouter>
+      {/* <HomePage /> */}
     </>
   );
 }

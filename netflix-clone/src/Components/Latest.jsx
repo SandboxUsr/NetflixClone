@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default function Latest() {
   return (
     <>
-      <Navbar latest={true} />
+      <Navbar latest={true} />  
     </>
   )
 }
