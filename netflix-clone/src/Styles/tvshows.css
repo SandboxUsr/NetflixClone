@@ -26,10 +26,10 @@
     position: relative;
 }
 
-.tvshows-casual-list-posters:hover {
+/* .tvshows-casual-list-posters:hover {
     transform: scale(1.2);
     opacity: 1;
-}
+} */
 
 .tvshows-casual-list button {
   position: absolute;

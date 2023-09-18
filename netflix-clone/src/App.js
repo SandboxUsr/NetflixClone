@@ -5,8 +5,9 @@ import Latest from "./Components/Latest";
 import LandingPage from "./Components/LandingPage"
 import MyList from "./Components/MyList"
 import LoginPage from "./Components/LoginPage"
-// import OnHoverCard from "./Components/OnHoverCard"
+import HoverableDiv from "./Components/HoverableDiv"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import OnHoverCard from "./Components/OnHoverCard";
 
 function App() {
   return (
@@ -23,10 +24,11 @@ function App() {
           <Route path="/latest" element={<Latest />} />
           <Route path="/mylist" element={<MyList />} />
           <Route path="/loginpage" element={<LoginPage/>} />
-          {/* <Route path="/onhovercard" element={<OnHoverCard/>} /> */}
+           <Route path="/onhovercard" element={<OnHoverCard/>} /> 
         </Routes>
       </BrowserRouter>
-      {/* <HomePage /> */}
+      {/* <HoverableDiv /> */}
+      
     </>
   );
 }
