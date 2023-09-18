@@ -8,9 +8,9 @@ import { BiChevronDownCircle } from 'react-icons/bi';
 
 function OnHoverCard() {
   return (
-    <div className='h-[370px] w-[420px] bg-black my-[10px] ml-[30px] '>
-        <div className={`h-[190px] w-[410px] mx-[5px] my-[10px]`}>
-          <img src={demo} alt="hola" className='h-[190px] w-[410px] pt-[5px]'/>
+    <div className='h-[370px] w-[420px] bg-black my-[10px] ml-[30px]'>
+        <div className={`h-[190px] w-[410px] mx-[5px] my-[10px] z-40`}>
+          <img src={demo} alt="hola" className='h-[190px] w-[410px] pt-[5px] px-0 pb-0'/>
         </div>
         <div id="card-buttons" className='flex'>
           <div className='flex space-x-1.5'>
