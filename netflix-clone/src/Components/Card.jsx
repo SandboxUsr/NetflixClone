@@ -25,7 +25,7 @@ export default function Card(props) {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <div className="hoverable-card">
+      <div className="hoverable-card z-40">
         <div>
           <img
             className="poster"
