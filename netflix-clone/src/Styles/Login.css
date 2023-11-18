@@ -102,21 +102,23 @@ label{
 
 .container{
     position: relative;
+    height: 100vh;
+    width: 100vw;
 }
-.content{
+.logincontent{
     position: absolute;
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
     width:100vw;
-    display: flex;
+   
 }
-img{
+.login_netflix{
     padding: 1.5rem;
-    left:1rem
+    padding-left:3rem
 }
-h3{
+/* h3{
     color: white;
     font-size: 2rem;
     font-weight:500;
@@ -126,8 +128,8 @@ h3{
 }
 .form{
     background-color: rgba(0, 0, 0, .75);
-    /* display: flex;
-    flex-wrap:wrap; */
+     display: flex;
+    flex-wrap:wrap; 
     
     height:85vh;
     width:30vw;
@@ -189,7 +191,7 @@ label{
     margin-left: 4.5vw;
     margin-right: 4.5vw;
     margin-top: 80px;
-    /* font-size: 14px; */
+     font-size: 14px; 
 }
 #link{
     color: white;
@@ -200,4 +202,4 @@ label{
 }
 #learnMore{
     color:blue
-}
+} */
