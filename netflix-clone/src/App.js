@@ -5,6 +5,7 @@ import Latest from "./Components/Latest";
 import LandingPage from "./Components/LandingPage"
 import MyList from "./Components/MyList"
 import LoginPage from "./Components/LoginPage"
+import Movies from "./Components/Movies"
 import HoverableDiv from "./Components/HoverableDiv"
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import OnHoverCard from "./Components/OnHoverCard";
@@ -20,7 +21,7 @@ function App() {
         <Routes>
           <Route path="/home" element={<HomePage />} />
           <Route path="/tvshows" element={<TvShows />} />
-          <Route path="/movies" element={<TvShows />} />
+          <Route path="/movies" element={<Movies />} />
           <Route path="/latest" element={<Latest />} />
           <Route path="/mylist" element={<MyList />} />
           <Route path="/loginpage" element={<LoginPage/>} />
