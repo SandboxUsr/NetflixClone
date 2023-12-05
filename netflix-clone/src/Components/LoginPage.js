@@ -1,52 +1,19 @@
-// import React from "react";
-// import netflixlogo from "../Assets/netflixlogo.png";
-// import BgImg from "./BackgroundImg";
-// import './Login.css'
-// function LoginPage() {
-//   return (
-//     <>
-//       <div className="container">
-//        <BgImg/>
-//        <div className="content">
-//        <div className="netflix">
-//        <img
-//          style={{ height: "45px", width: "170px" }} src={netflixlogo} alt="logo"/>
-//      </div>
-
-//      <div className="form">
-     
-//      <h3>Sign In</h3>
-//      <br/>
-//      <form>
-//      <input id="ip1" placeholder="    Email or phone number" type="email"/><br/>
-//      <input id="ip2" placeholder="    Password" type="password"/><br/>
-//      <button type="submit">Sign In</button>
-//      <div id="div1">
-//      <span><label>Remember me</label><input type="checkbox" id="Remember" /></span>
-//      <span>Need help?</span>
-//      </div>
-//      <div id="div2">New to Netflix? 
-// <span id="link"> Sign up now.</span><br/>
-// <div id="message">
-// This page is protected by Google reCAPTCHA to ensure you're not a bot. <span id="learnMore">Learn more.</span></div>
-// </div> </form>
-     
-
-//      </div>
-//      </div>
-       
-//       </div>
-//     </>
-//   );
-// }
-
-// export default LoginPage;
-
-import React from "react";
+import React, { useState } from "react";
 import netflixlogo from "../Assets/netflixlogo.png";
 import bg from '../Assets/login.jpg'
 import '../Styles/Login.css'
 function LoginPage() {
+
+const [data,setData]=useState({})
+
+const handleSubmit = (e) => {
+  e.preventDefault();
+  setData({
+    email: e.target.value,
+    password: e.target.value,
+  });
+};
+
   const backgroundImageStyle = {
     height: `calc(100vh + 85vh)`, // 100vh + half of the viewport height
     backgroundImage: `url(${bg})`,
@@ -67,7 +34,7 @@ function LoginPage() {
      
      <div className="mt-[70px] ml-[70px] "><h3 className="font-[500]  text-[2rem]">Sign_In</h3></div>
      
-     <form>
+     <form onSubmit={handleSubmit()}>
      <input id="ip1" className="mt-[23vh] mb-[3vh] ml-[-110px] h-[50px] w-[300px] bg-[#333333] rounded" placeholder="    Email or phone number" type="email"/><br/>
      <input id="ip2" className=" ml-[-110px] h-[50px] w-[300px] bg-[#333333] rounded"placeholder="    Password" type="password"/><br/>
      <button type="submit" className="mt-[35px] ml-[-110px] h-[50px] w-[300px] bg-[#E50914] rounded text-white font-semibold text-lg">Sign In</button>
